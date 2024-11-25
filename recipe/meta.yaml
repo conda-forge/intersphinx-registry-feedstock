@@ -1,5 +1,5 @@
 {% set name = "intersphinx-registry" %}
-{% set version = "0.2411.17" %}
+{% set version = "0.2411.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/intersphinx_registry-{{ version }}.tar.gz
-  sha256: 722601c22cb64281c1e32394b3aef074e6a0c9c23c86a0ec952ce20e8f1be9e2
+  sha256: 13a7eb9f85504f41c15722b9ccb22390b9cdfb14991cfe4224183cc67d2203a2
 
 build:
   noarch: python
